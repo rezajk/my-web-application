@@ -1,0 +1,56 @@
+
+  <div class="wrapper row1" style="background-image:url('https://img.freepik.com/premium-photo/old-black-texture-background-dark-wallpaper-grunge-texture-blackboard-room-wall-chalkboard_664601-1053.jpg?w=1380');">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left"> 
+
+
+
+        <!-- ################################################################################################ -->
+
+        <h1><a routerlink='' ><i class="fas fa-crow"></i>Jomeha-Code</a></h1>
+
+
+        <!-- ################################################################################################ -->
+
+
+      </div>
+      <nav id="mainav" class="fl_right"> 
+        
+        <!-- ################################################################################################ -->
+
+
+
+        
+        <ul  style="color: rgb(88, 88, 88);  ">
+          <li ><a routerLink="" >Home</a></li>
+          <li><a  >Pages</a>
+            <ul>
+              <li ><a >debar Left</a></li>
+              <li><a  >Sidebar Right</a></li>
+              <li><a  [routerLink]="['navbar/pople-coment'] "  routerLinkActive="{exact :'navbar/pople-coment'}" >pople-coment</a></li>
+              <li><a  >Font Icons</a></li>
+            </ul>
+          </li>
+          <li><a>Dropdown</a>
+            <ul>    
+              <li><a href="#">Level 2</a></li>
+              <li><a class="drop" href="#">Level 2 + Drop</a>
+                <ul>
+                  <li><a [routerLink]="['/test']">test</a></li>
+                  <li><a href="#">Level 3</a></li>
+                  <li><a href="#">Level 3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Level 2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Link Text</a></li>
+          <li><a href="#">Link Text</a></li>
+          <li><a  routerLink="test {exact:true}">Link Text</a></li>
+        </ul>
+        <!-- ################################################################################################ -->
+      </nav>
+    </header>
+  </div>
+
+ 
